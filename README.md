@@ -7,10 +7,16 @@
 ## Description
 
 This webpage returns a range of numbers from 0 to the input number with the following exceptions:
-* Numbers that contain a 0 are replaced (all digits) with "Beep!"
-* Numbers that contain a 1 are replaced (all digits) with "Boop!"
-* Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-
+* Program replaces 0 with "Beep!". _(i.e.: input: 0; output: ["Beep!"])_
+* Program replaces 1 with "Boop!". _(i.e.: input: 1; output: ["Boop!"])_
+* Program replaces 3 with "I'm sorry, [inputName]. I'm afraid I can't do that.". _(i.e.: input: 3; output: ["I'm sorry..."])_
+* Numbers that contain 0 are replaced (all digits) with "Beep!". _(i.e.: input: 20; output: ["Beep!"])_
+* Numbers that contain 1 are replaced (all digits) with "Boop!". _(i.e.: input: 14; output: ["Boop!"])_
+* Numbers divisible by 3 are replaced with "I'm sorry, [inputName]. I'm afraid I can't do that.". _(i.e.: input: 33; output: ["I'm sorry..."])_
+* If number contains 0 and 1 then number will be replaced with "Boop!". _(i.e.: input: 10; output: ["Boop!"])_
+* If number contains 1 and divisible by 3, then number will be replaced with "I'm sorry, [inputName]. I'm afraid I can't do that.". _(i.e.: input: 12; output: ["I'm sorry..."])_
+* If number contains 0 and divisible by 3, then number will be replaced with "I'm sorry, [inputName]. I'm afraid I can't do that.". _(i.e.: input: 30; output: ["I'm sorry..."])_
+* If number contains 0, 1 and divisible by 3, then number will be replaced with "I'm sorry, [inputName]. I'm afraid I can't do that.". _(i.e.: input: 120; output: ["I'm sorry..."])_
 
 ## Setup/Installation Requirements
 
