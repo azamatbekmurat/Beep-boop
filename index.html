@@ -10,32 +10,38 @@
   </head>
   <body>
     <div class="container">
-      <h1>Beep-Boop</h1>
+      <div class="jumbotron">
+        <h1>Beep-Boop</h1>
+        <p>We will return you a range of numbers from 0 to the input number</p>
+      </div>
+
       <form id="beep">
-        <h3>We will return you a range of numbers from 0 to the input number</h3>
+        <div class="form-group">
+          <label for="numeric-value">Number: </label>
+          <input type="text" id="number" placeholder="Enter your number">
+        </div>
 
-          <div class="form-group">
-            <label for="numeric-value">Number: </label>
-            <input type="text" id="number" placeholder="Enter your number">
+        <div class="form-group">
+          <label for="text-value">Name: </label>
+          <input type="text" id="person" placeholder="Enter your name">
+        </div>
 
-          </div>
-
-          <!-- <div class="form-group">
-            <label for="text-value">Name: </label>
-            <input type="text" id="person" placeholder="Enter your name">
-
-          </div> -->
-
-          <button type="submit" class="btn btn-primary btn-lg">Result!</button>
-
+        <button type="submit" class="btn btn-primary btn-lg">Show result!</button>
       </form>
 
       <div id="result">
         <br>
         <p>Result is: [<span class="output"></span>]</p>
+        <img src="img/thumb.jpg" alt="image of Yeahh!" id="thumb">
+        <p id="fadeReverse"><a href="#">click here if you want to see reversed result</a></p>
+      </div>
+
+      <div id="resultReversed">
+        <br>
+        <p>Reversed result is: [<span class="outputReversed"></span>]</p>
+        <img src="img/thumb_reverse.jpg" alt="image of Yeahh!" class="pull-left" id="thumb_reverse">
       </div>
 
     </div>
-
   </body>
 </html>

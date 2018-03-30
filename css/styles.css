@@ -1,0 +1,38 @@
+#result, #resultReversed {
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+
+#fadeReverse {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bolder;
+  color: #1f158e;
+}
+
+#thumb, #thumb_reverse{
+  width: 125px;
+  height: 120px;
+  display: block;
+}
+
+.output {
+  font-size: 35px;
+  color: #4569bc;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.outputReversed {
+  font-size: 35px;
+  color: #32823d;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.btn-lg {
+  width: 200px;
+}
