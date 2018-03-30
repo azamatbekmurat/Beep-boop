@@ -61,5 +61,5 @@ _contact Azamat Bekmuratov with any suggestions or feedback_
 
 ## License
 
-#### Copyright (c) 2018 **_Azamat Bekmuratov_**
-#### This software is licensed under the GPL License
+##### Copyright (c) 2018 **_Azamat Bekmuratov_**
+##### This software is licensed under the GPL License

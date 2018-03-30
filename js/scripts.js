@@ -41,7 +41,6 @@ $(document).ready(function() {
     $(".outputReversed").text(reversedOutput);
     $("#result").show();
     $("#resultReversed").hide();
-
   });
 
   $("#fadeReverse").click(function() {
